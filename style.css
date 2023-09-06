@@ -12,11 +12,15 @@ body {
 
 /**/
 
+p {
+    color: #4E412D;
+    font-family: 'Montserrat', sans-serif;
+}
 
 .titulo {
     display: flex;
     flex-direction: column;
-    height: 80vh;
+    height: 100vh;
     font-family: 'Montserrat', sans-serif;
     background-color: #C7FEFD;
     background-image: url(img/depositphotos_622872182-stock-illustration-landscape-of-coal-mine.jpg);
@@ -52,8 +56,28 @@ body {
 
 .descripcion {
     background: linear-gradient(180deg, rgba(170,144,102,1) 0%, rgba(199,177,140,1) 60%);
-    display: flex;
+    /* display: flex; */
     height: 100vh;
-    padding: 0;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
     margin: 0;
+}
+
+.descripcion p{
+    background-color: #C7FEFD;
+    padding: 10px 25px;
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+
+		/* shorthand
+		animation: shadow-drop-center 1.2s ease-in 0.2s 1 normal none;*/
+	
+
+}
+
+.descripcion p{
+    transition: 4s ease-in;
+    box-shadow: #4E412D;
 }
