@@ -1,0 +1,59 @@
+/* font-family: 'Berkshire Swash', cursive;
+font-family: 'Borel', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Satisfy', cursive;
+font-family: 'Work Sans', sans-serif;*/
+
+
+body {
+    margin: 0;
+}
+
+
+/**/
+
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #C7FEFD;
+    background-image: url(img/depositphotos_622872182-stock-illustration-landscape-of-coal-mine.jpg);
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-size:inherit;
+    padding: 0;
+    margin: 0;
+}
+
+.mineria {
+    font-family: 'Berkshire Swash', cursive;
+    color: rgb(255, 255, 255);
+    text-shadow: #366e59 0px 0px 12px;
+    font-size: 4.1rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 35px;
+    margin: 0;
+}
+
+.otroTitulo {
+    margin: 0;
+    text-transform: uppercase;
+    font-variant: small-caps;
+    font-weight: bold;
+    text-align: center;
+    color: #4E412D;
+    font-size: 2.4rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.descripcion {
+    background: linear-gradient(180deg, rgba(170,144,102,1) 0%, rgba(199,177,140,1) 60%);
+    display: flex;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
